@@ -2,8 +2,8 @@
 
 pragma solidity ^0.8.1;
 
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v4.7/contracts/utils/math/SafeMath.sol";
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol";
+import "./SafeMath.sol";
+import "./Ownable.sol";
 
 contract LibExample is Ownable {
 
