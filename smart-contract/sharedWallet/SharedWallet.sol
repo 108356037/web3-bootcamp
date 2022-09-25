@@ -3,7 +3,7 @@
 pragma solidity ^0.8.1;
 
 import "./BasicWallet.sol";
-import "https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/master/contracts/utils/math/SafeMath.sol";
+import "../basics/SafeMath.sol";
 
 
 interface WalletStructs {
