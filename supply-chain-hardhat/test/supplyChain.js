@@ -25,5 +25,7 @@ describe("ItemManager Contract", async function () {
     await expect(itemManager.createItem("this is npx test item", 1000))
       .to.emit(itemManager, "SupplyChainStep")
       .withArgs(0, 0, await getItemAddress(0));
+
+    expect(await itemManager.items(0));
   });
 });
